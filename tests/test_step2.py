@@ -5,3 +5,9 @@ def test_valid_json_with_one_atrribute():
     test_json = r'{"key": "value"}'
 
     assert parse(test_json) is True
+
+
+def test_invalid_json_with_one_atrribute():
+    test_json = r'{"key": "value",}'
+
+    assert parse(test_json) is False

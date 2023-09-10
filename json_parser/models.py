@@ -8,6 +8,8 @@ class JsonToken(Enum):
     CLOSING_QUOTE = auto()
     STRING_CONTENT = auto()
     STRING = auto()
+    COMMA = auto()
+    COLON = auto()
     WHITESPACE = auto()
 
 
