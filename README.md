@@ -22,4 +22,16 @@
 - [X] `{` or `}` should not be a valid JSON
 - [X] Implement parsing a file
 
+### Step 2
+
+- [ ] Parse a simple JSON object with string keys and string values
+
+- A **string** is a sequence of N characters wrapped in single or double quotes
+  - For simplicity, strings cannot be empty (`""`)
+    - All opening quotes should be closed (total number of quotes must be even or 0)
+- All keys need to have a value
+- Keys and values should be separated by a `:` colon
+- An **attribute** is the combined unit of a key and a value
+  - If an object has more than one attribute, they should be separated by commas
+
 (I'll be putting more steps here as I go along)
