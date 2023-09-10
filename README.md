@@ -20,5 +20,6 @@
 - [X] `{}` should be a valid JSON
 - [X] empty string should not be a valid JSON
 - [X] `{` or `}` should not be a valid JSON
+- [X] Implement parsing a file
 
 (I'll be putting more steps here as I go along)
