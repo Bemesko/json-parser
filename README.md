@@ -17,12 +17,8 @@
 
 ### Step 1
 
-- [ ] Differentiate a simple `{}` JSON object from an invalid file
-  - [ ] Lexer
-    - [ ] Define tokens for `{` and `}`
-  - [ ] Parser
-    - [ ] Only allow opening brackets with corresponding closing brackets
-- [ ] Return exit code 0 for succcess and 1 for failure
-- [ ] Automate test cases
+- [X] `{}` should be a valid JSON
+- [X] empty string should not be a valid JSON
+- [X] `{` or `}` should not be a valid JSON
 
 (I'll be putting more steps here as I go along)
