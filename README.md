@@ -24,6 +24,12 @@
 
 ### Step 2
 
+- [ ] Create a lexing definition for a string i.e. `"` + chars + `"`
+  - This is surprisingly hard
+  - Idea: treat the string to be tokenized as a stack (LIFO)
+    - Lexer will work with buffers instead of singular characters, but some buffers will be length 1
+      - Pop the first character off the stack and try to lex it as a length 1 buffer
+      - If the character cannot be parsed, pop another character off the stack and add it to the buffer
 - [ ] Parse a simple JSON object with string keys and string values
 
 - A **string** is a sequence of N characters wrapped in single or double quotes
